@@ -1,4 +1,4 @@
-## This is a working example for Oracle database, which accompanies the blog post "Testing Pessimistic Locking Handling with Spring Boot and JPA on Oracle, MySQL and PostgreSQL"
+## This is a working example for Oracle database accompanying the blog post "Testing Pessimistic Locking Handling with Spring Boot and JPA on Oracle, MySQL and PostgreSQL"
 
 More examples here:
 - [Example for Oracle (this one)](https://github.com/andistoev/testing-pessimistic-locking-handling-spring-boot-jpa-oracle)
@@ -11,8 +11,11 @@ This SpringBoot maven project is part of my [blog post](https://blog.mimacom.com
 - How you could implement it within a Spring Boot Application and JPA on the Oralce, MySQL and PostgreSQL databases
 - How you could write integration tests for handling pessimistic locking.
 
+### Prerequisites:
+- Docker
+- JDK8+.
+
 ### Setup
-- Install Docker and JDK8
 - Start Oracle database container from docker/db-up.sh
 - Check with "docker ps" if the container is up&running.
 
