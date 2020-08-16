@@ -1,0 +1,14 @@
+# Use postgres/example user/password credentials => docker-compose -f db-stack.yml up
+version: '3.1'
+
+services:
+  db:
+    build: .
+    image: oracle-test-db
+    restart: always
+    hostname: oracle-test-db
+    container_name: oracle-test-db
+    ports:
+      - 1521:1521
+    environment:
+      ORACLE_ALLOW_REMOTE: "true"

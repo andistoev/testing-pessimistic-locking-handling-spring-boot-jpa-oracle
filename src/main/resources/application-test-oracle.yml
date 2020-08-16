@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+    password: oracle
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        #dialect info: https://docs.jboss.org/hibernate/orm/3.6/reference/en-US/html/session-configuration.html#configuration-optional-dialects
+        dialect: org.hibernate.dialect.Oracle10gDialect
