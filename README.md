@@ -1,4 +1,4 @@
-## This is a working example for Oracle which accompanies the blog post "Testing Pessimistic Locking Handling with Spring Boot and JPA on Oracle, MySQL and PostgreSQL"
+## This is a working example for Oracle database, which accompanies the blog post "Testing Pessimistic Locking Handling with Spring Boot and JPA on Oracle, MySQL and PostgreSQL"
 
 More examples here:
 - [Example for Oracle (this one)](https://github.com/andistoev/testing-pessimistic-locking-handling-spring-boot-jpa-oracle)
@@ -30,7 +30,7 @@ Have fun and do not hesitate to contact me if you have any questions or suggesti
 
 ### About me
 My name is [Andrey Zahariev Stoev](https://www.linkedin.com/in/andistoev). 
-I am working as Senior Software Architect in Bern, Switzerland
+I am working as Senior Software Architect in Switzerland.
 I love software craftsmanship and systems thinking.
 I am passionate about travel, languages and cultural diversity exploration.
 
